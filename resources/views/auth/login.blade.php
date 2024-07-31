@@ -2,7 +2,7 @@
 
 
     <div class="flex items-center justify-center select-none mb-[32px]">
-        <div class="hidden-when-collapsed mx-4 mt-3 font-black text-6xl text-[#003CA2]">V Breeze</div>
+        <div class="hidden-when-collapsed mx-4 mt-3 font-black text-6xl text-[#003CA2]">Reserva de Salas</div>
     </div>
 
     <!-- Session Status -->
