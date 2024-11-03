@@ -1,0 +1,23 @@
+<div class="table-responsive mb -5">
+  <table class="table">
+    <thead>
+    <tr>
+      <th scope="col">Sala</th>
+      <th scope="col">Responsável</th>
+      <th scope="col">Início</th>
+      <th scope="col">Fim</th>
+    </tr>
+    </thead>
+    <tbody>
+    <ng-container >
+      <tr *ngFor="let reserva of reservas">
+        <td>{{reserva.sala_id}}</td>
+        <td>{{reserva.responsavel}}</td>
+        <td>{{reserva.inicio}}</td>
+        <td>{{reserva.fim}}</td>
+      </tr>
+    </ng-container>
+    </tbody>
+  </table>
+
+</div>
